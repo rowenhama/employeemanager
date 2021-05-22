@@ -39,7 +39,7 @@ public class EmployeemanagerApplication {
 //		corsConfiguration.setAllowedMethods(Arrays.asList("GET","POST","PUT","DELETE","OPTIONS"));
 //		UrlBasedCorsConfigurationSource urlBasedCorsConfigurationSource = new UrlBasedCorsConfigurationSource();
 //		urlBasedCorsConfigurationSource.registerCorsConfiguration("/**",corsConfiguration);
-//		return new CorsFilter(urlBasedCorsConfigurationSource);
+//		return new CorsFilter(urlBasedCorsConfigurationSource); // failed on this line
 //	}
 
 	@Component
